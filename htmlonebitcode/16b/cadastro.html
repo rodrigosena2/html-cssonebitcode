@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h2>Cadastro de Dev</h2>
+    <form action="cadastro.html">
+        <label for="nome">Primeiro nome</label>
+        <br>
+        <input type="text" id="nome" name="nome" required placeholder="lucas" autofocus>
+        <br>
+        <label for="snome">Sobrenome</label>
+        <br>
+        <input type="text" id="snome" name="snome"  required placeholder="winchester"> 
+        <br>
+        <br>
+        <label for="genero">Gênero</label>
+        <br>
+        <input list="genero" required placeholder="Selecione">
+        <datalist id="genero">
+            <option value="Masculino">
+            <option value="Feminino">
+
+        </datalist>
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+    <h4>Nível de Conhecimento</h4>
+    <form action="cadastro.html">
+        <label for="c">Selecione seu nível ou digite seu nível</label>
+        <br>
+        <input list="níveis" required placeholder="junior, senior, pleno, estudante">
+         <datalist id="níveis">
+             <option value="Estudante">
+                <option value="Estágiario">
+                <option value="Junior">
+                <option value="Pleno">
+                <option value="Senior">
+  </datalist>
+  
+    </form>
+    <h4>Informe sua data de nascimento</h4>
+    <form action="cadastro.html">
+        <label for="datan">Digite Sua Data de nascimento</label>
+        <br>
+        <input type="date" id="datan" name="datan" required>
+        <input type="submit">
+    </form>
+
+    <p>Se você clicar em "enviar", todo a data do formulário vai ser enviada para a pagina cadastro.html</p>
+    
+</body>
+</html>
