@@ -5,6 +5,6 @@
 Aprendendo e refinando conhecimentos!
  <hr>
  <ul>
-    <li> <a href="https://github.com/rodrigosena2/html-cssonebitcode/tree/main/htmlonebitcode/exfinalhtml/index.html"> Página completa em css</a></li>
+    <li> <a href="https://github.com/rodrigosena2/html-cssonebitcode/tree/main/htmlonebitcode/exfinalhtml/index.html"> Executar página completa em css</a></li>
  
  </ul>
