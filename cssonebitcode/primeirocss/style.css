@@ -3,7 +3,35 @@
 h1 {
     color: purple;
     font-size: 50px;
+    background-color: grey;
+    
+    border: 4px dashed black;
 }
 li {
     color: green;
+}
+
+body {
+    background-color: rgba(218, 174, 218, 0.775);
+}
+/* 
+background-image: serve para colocar imagens além de varías cores ao mesmo tempo
+
+background-repeat: no repeat; é para a imagem não ficar se repetindo
+
+background-size: cover; é para a imagem se ajustar ao tamanho de capa.
+
+*/
+.yellow-text {
+    color: yellow;
+    font-size: 18px;
+}
+
+.big-text {
+    font-size: 40px;
+}
+
+#europa-text {
+    font-size: 10px;
+    color: blue;
 }
